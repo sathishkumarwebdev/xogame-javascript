@@ -1,0 +1,88 @@
+#container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* background-color: cadetblue; */
+}
+
+#xo-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.outer-box1 {
+  display: flex;
+  justify-content: center;
+}
+.outer-box2 {
+  display: flex;
+  justify-content: center;
+}
+.outer-box3 {
+  display: flex;
+  justify-content: center;
+}
+.outer-box1 div {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+
+  border: 1px solid orange;
+}
+.outer-box2 div {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid orange;
+}
+.outer-box3 div {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid orange;
+}
+.player-text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#btn {
+  width: 100px;
+  height: 30px;
+  background-color: crimson;
+  border: none;
+  border-radius: 20px;
+  color: aliceblue;
+  font-family: "Indie Flower", "Comic Sans", Bold;
+  font-size: 20px;
+}
+.outer-box1 div > *,
+.outer-box2 div > *,
+.outer-box3 div > * {
+  font-family: "Indie Flower", "Comic Sans", cursive;
+}
+
+.player-text {
+  font-family: "Indie Flower", "Comic Sans", cursive;
+  font-size: 24px;
+}
+.player-x {
+  color: red;
+  font-family: "Indie Flower", "Comic Sans", cursive;
+}
+.player-o {
+  color: blue;
+  font-family: "Indie Flower", "Comic Sans", cursive;
+}
+.allPlayer {
+  font-family: "Indie Flower", "Comic Sans", cursive;
+}
